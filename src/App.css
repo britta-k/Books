@@ -162,6 +162,18 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .book-category {
+    flex-wrap: wrap;
+    
+  }
+
+  .book-category {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .book-item {
     flex-wrap: wrap;
