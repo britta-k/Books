@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
 export const Author = () => {
-  const [bookTitle, setBookTitle] = useState('');
+  const [bookTitle, setBookTitle] = useState(''); // State hook to manage the book title input field value, initialized as an empty string
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Book submitted:', { title: bookTitle });
-    setBookTitle(''); // Clears the form field
+    e.preventDefault(); // Prevents the default form submission behavior to handle it manually
+    console.log('Book submitted:', { title: bookTitle }); // Logs the submitted book title to the console
+    setBookTitle(''); // Clears the input field by resetting the state
   };
 
   return (
