@@ -198,6 +198,7 @@ header {
     width: 50%;
     text-align: left; 
     margin-bottom: 20px; 
+    margin-left: 0;
   }
 
   .button {
@@ -206,6 +207,8 @@ header {
 
   .expanded-info {
     width: 50%; 
+    text-align: left; 
+    margin-left: 0;
   }
 }
 
