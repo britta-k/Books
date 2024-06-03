@@ -62,6 +62,20 @@ header {
 .link:hover {
   color: #947C41;
 }
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navigation {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
  /**Home**/
 
 .books-container {
