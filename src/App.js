@@ -12,10 +12,10 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="*" element={<NotFound/>}></Route>
         <Route path="/fiction" element={<Fiction/>}></Route>
         <Route path="/nonfiction" element={<Nonfiction/>}></Route>
         <Route path="/author" element={isAuthor? <Author/> : <Navigate to="/"></Navigate>}></Route>
+        <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
